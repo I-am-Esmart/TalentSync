@@ -32,14 +32,18 @@ const Navbar = () => {
                 <RiArrowDropDownLine />
               </span>
             </div>
-            <div>
-              <p>Resources</p>
+            <div className={styles.navbar_container_services_pricing}>
+              <p>Pricing</p>
             </div>
           </div>
 
           <div className={styles.navbar_container_buttons}>
-            <button>Talk to sales</button>
-            <button>Sign up for free</button>
+            <button className={styles.navbar_container_button1}>
+              Talk to sales
+            </button>
+            <button className={styles.navbar_container_button2}>
+              Sign up for free
+            </button>
           </div>
         </div>
       </div>
