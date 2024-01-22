@@ -107,3 +107,121 @@ nav {
   background: #fff;
   transition: all ease 0.4s;
 }
+
+/* Navbar responsive  */
+/* .mobile_nav {
+  width: 100%;
+  display: none;
+}
+.mobile_nav_wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile_nav_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-radius: 6.25rem;
+  border: 1px solid #d0d5dd;
+  background: #f2f4f7;
+}
+
+.mobile_nav_menu_items_container {
+  background-color: red;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  z-index: 1;
+}
+
+.mobile_nav_menu_items {
+  background: #00000080;
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.5rem;
+  transition: all 300ms linear;
+  color: #ffff;
+}
+
+@media screen and (max-width: 930px) {
+  .navbar_wrapper {
+    display: none;
+  }
+
+  .mobile_nav {
+    display: block;
+  }
+} */
+
+.mobile_nav {
+  width: 100%;
+  display: none;
+}
+
+.mobile_nav_wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile_nav_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-radius: 6.25rem;
+  border: 1px solid #d0d5dd;
+  background: #f2f4f7;
+}
+
+.mobile_nav_menu_items_container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.mobile_nav_menu_items {
+  position: relative;
+  background: #00000080;
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.5rem;
+  transition: all 300ms linear;
+  color: #ffffff;
+}
+.mobile_nav_menu_items_times {
+  position: absolute;
+  color: #175cd3;
+  top: 1rem;
+  right: 32%;
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 930px) {
+  .navbar_wrapper {
+    display: none;
+  }
+
+  .mobile_nav {
+    display: block;
+  }
+}
