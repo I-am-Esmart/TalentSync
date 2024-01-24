@@ -63,7 +63,6 @@ nav {
   align-items: center;
 }
 
-/* Add this style to position the dropdown content */
 .dropdown_content {
   position: absolute;
   top: 100%;
@@ -79,14 +78,12 @@ nav {
   z-index: 1;
 }
 
-/* Show the dropdown content when the parent is hovered or active */
 .navbar_container_services_products:hover .dropdown_content,
 .navbar_container_services_solutions:hover .dropdown_content,
 .navbar_container_services_resources:hover .dropdown_content {
   display: flex;
 }
 
-/* Style for each item in the dropdown content */
 .dropdown_content p {
   padding: 10px;
   text-align: center;
@@ -95,7 +92,6 @@ nav {
   transition: background-color 0.3s;
 }
 
-/* Style for each item on hover */
 .dropdown_content p:hover {
   background-color: #f2f2f2;
 }
