@@ -7,10 +7,25 @@ import { FaTimes } from "react-icons/fa";
 import { useState } from "react";
 
 const Navbar = () => {
+  const [showProducts, setShowProducts] = useState(false);
+  const [showSolutions, setShowSolutions] = useState(false);
+  const [showResources, setShowResources] = useState(false);
   const [showMenuItems, setShowMenuItems] = useState(false);
+
+  const handleToggleDropdown = (dropdown) => {
+    if (dropdown === "products") {
+      setShowProducts(!showProducts);
+    } else if (dropdown === "solutions") {
+      setShowSolutions(!showSolutions);
+    } else if (dropdown === "resources") {
+      setShowResources(!showResources);
+    }
+  };
+
   const handleShowMenuItems = () => {
     setShowMenuItems(!showMenuItems);
   };
+
   return (
     <nav>
       <div className={styles.navbar_wrapper}>
@@ -21,24 +36,60 @@ const Navbar = () => {
           </div>
 
           <div className={styles.navbar_container_services}>
-            <div className={styles.navbar_container_services_products}>
+            <div
+              className={styles.navbar_container_services_products}
+              onClick={() => handleToggleDropdown("products")}
+            >
               <p>Products</p>
               <span>
                 <RiArrowDropDownLine />
               </span>
+              {showProducts && (
+                <div className={styles.dropdown_content}>
+                  {/* Add your dropdown content for Products here */}
+                  <p>Product 1</p>
+                  <p>Product 2</p>
+                  <p>Product 3</p>
+                </div>
+              )}
             </div>
-            <div className={styles.navbar_container_services_solutions}>
+
+            <div
+              className={styles.navbar_container_services_solutions}
+              onClick={() => handleToggleDropdown("solutions")}
+            >
               <p>Solutions</p>
               <span>
                 <RiArrowDropDownLine />
               </span>
+              {showSolutions && (
+                <div className={styles.dropdown_content}>
+                  {/* Add your dropdown content for Solutions here */}
+                  <p>Solution 1</p>
+                  <p>Solution 2</p>
+                  <p>Solution 3</p>
+                </div>
+              )}
             </div>
-            <div className={styles.navbar_container_services_resources}>
+
+            <div
+              className={styles.navbar_container_services_resources}
+              onClick={() => handleToggleDropdown("resources")}
+            >
               <p>Resources</p>
               <span>
                 <RiArrowDropDownLine />
               </span>
+              {showResources && (
+                <div className={styles.dropdown_content}>
+                  {/* Add your dropdown content for Resources here */}
+                  <p>Resource 1</p>
+                  <p>Resource 2</p>
+                  <p>Resource 3</p>
+                </div>
+              )}
             </div>
+
             <div className={styles.navbar_container_services_pricing}>
               <p>Pricing</p>
             </div>
