@@ -1,7 +1,7 @@
 .about_section {
   width: 100%;
-  margin-top: 12rem;
-  height: 100vh;
+  margin-top: 20%;
+  height: 90vh;
 }
 
 .about_section_wrapper {
@@ -18,7 +18,7 @@
 .about_section_container_title p:nth-of-type(1) {
   color: #175cd3;
   font-family: "Inter";
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   font-weight: 600;
   cursor: pointer;
 }
@@ -41,16 +41,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 5rem;
   gap: 3rem;
   width: 100%;
 }
 
 .about_section_container_body_left {
-  margin-top: 4rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
   width: 82%;
 }
 
@@ -69,7 +67,7 @@
 .about_section_left_content_container {
   color: #475467;
   font-family: "Inter";
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
@@ -83,5 +81,5 @@
 
 .hand_drawn_arrow {
   position: absolute;
-  transform: translate(105%, -122%);
+  transform: translate(85%, -122%);
 }

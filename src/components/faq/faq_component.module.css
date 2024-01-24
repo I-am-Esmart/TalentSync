@@ -1,6 +1,6 @@
 .faq_section {
   width: 100%;
-  margin-top: 12rem;
+  margin-top: 10%;
 }
 .faq_section_wrapper {
   width: 100%;
@@ -22,7 +22,7 @@
 
 .faq_section_container_left p:nth-of-type(1) {
   font-family: "Inter";
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: #175cd3;
 }
@@ -37,7 +37,7 @@
 
 .faq_section_container_left p:nth-of-type(2) {
   color: #667085;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 400;
   color: #667085;
   font-family: "Inter";
@@ -74,13 +74,13 @@ a {
 .faq_section_container_right_faq_container h5 {
   color: #101828;
   font-family: "Inter";
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 .faq_section_container_right_faq_container p {
   color: #475467;
   font-family: "Inter";
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 

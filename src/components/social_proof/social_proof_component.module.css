@@ -1,6 +1,6 @@
 .social_proof {
   width: 100%;
-  margin-top: 12rem;
+  margin-top: 10%;
 }
 
 .social_proof_wrapper {
@@ -28,5 +28,5 @@
   gap: 1rem;
 }
 .social_proof_container_companies img {
-  width: auto;
+  width: 16.6%;
 }

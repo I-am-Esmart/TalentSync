@@ -10,24 +10,23 @@
 .hero_section_left_title p {
   color: #1d2939;
   font-family: "Inter";
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: 600;
-  line-height: 4.5rem;
   letter-spacing: -0.08rem;
 }
 
 .hero_section_left_description {
 }
 .hero_section_left_description p {
-  margin-top: 2.5rem;
+  margin-top: 3rem;
   color: #667085;
   font-family: "Inter";
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 400;
 }
 
 .hero_section_left_free_trial_container {
-  margin-top: 2.5rem;
+  margin-top: 3rem;
   width: 80%;
   gap: 1.5rem;
   display: flex;
@@ -43,7 +42,7 @@
   color: #fff;
   font-family: "Inter";
   padding: 1rem 1.75rem;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   font-weight: 600;
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
 }
@@ -64,7 +63,7 @@
 
   color: #175cd3;
   font-family: "Inter";
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
@@ -86,7 +85,7 @@
 .hero_section_left_reviews_star_icons span {
   color: #344054;
   font-family: "Inter";
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 

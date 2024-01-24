@@ -1,18 +1,16 @@
-.hero_container {
+.samples_wrapper {
   width: 100%;
   margin-top: 10%;
-  /* height: 100vh; */
 }
 
-.hero_sub_container {
+.samples_container {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.hero_sub_container_wrapper {
+.samples_sub_container {
   width: 90%;
   display: flex;
   justify-content: space-between;
-  gap: 3rem;
 }
