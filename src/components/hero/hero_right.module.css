@@ -1,8 +1,10 @@
 .hero_section_right {
   height: 100%;
+  flex: 1;
 }
 
 .hero_section_right_container {
+  cursor: pointer;
   display: flex;
   padding: 2rem;
   flex-direction: column;
