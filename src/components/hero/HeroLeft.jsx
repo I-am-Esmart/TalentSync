@@ -2,6 +2,17 @@ import styles from "./hero_left.module.css";
 import { RiRobot2Line } from "react-icons/ri";
 import ReviewPeople from "./assets/review_people.png";
 import StarIcon from "./assets/Star icon.png";
+import { useEffect } from "react";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
+
+// const scroll = () => {
+//   useEffect(() => {
+//     AOS.init();
+//   }, []);
+// };
+
+// new WOW().init();
 
 const HeroLeft = () => {
   return (

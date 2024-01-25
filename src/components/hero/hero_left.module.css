@@ -27,12 +27,11 @@
 
 .hero_section_left_free_trial_container {
   margin-top: 3rem;
-  width: 80%;
+  width: 65%;
   gap: 1.5rem;
   display: flex;
   align-items: center;
-  justify-content: center;
-  justify-items: flex-start;
+  justify-content: flex-start;
 }
 .hero_section_left_free_trial_container button {
   cursor: pointer;

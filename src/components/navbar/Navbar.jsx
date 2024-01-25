@@ -46,7 +46,6 @@ const Navbar = () => {
               </span>
               {showProducts && (
                 <div className={styles.dropdown_content}>
-                  {/* Add your dropdown content for Products here */}
                   <p>Product 1</p>
                   <p>Product 2</p>
                   <p>Product 3</p>
@@ -64,7 +63,6 @@ const Navbar = () => {
               </span>
               {showSolutions && (
                 <div className={styles.dropdown_content}>
-                  {/* Add your dropdown content for Solutions here */}
                   <p>Solution 1</p>
                   <p>Solution 2</p>
                   <p>Solution 3</p>
@@ -82,7 +80,6 @@ const Navbar = () => {
               </span>
               {showResources && (
                 <div className={styles.dropdown_content}>
-                  {/* Add your dropdown content for Resources here */}
                   <p>Resource 1</p>
                   <p>Resource 2</p>
                   <p>Resource 3</p>
